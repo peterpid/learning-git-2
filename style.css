@@ -49,6 +49,10 @@ h2 {
 	color: #00adc9;
 }
 
+small {
+	text-transform: lowercase;
+}
+
 
 [class*="col-"] {
 	float: left;
