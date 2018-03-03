@@ -58,7 +58,14 @@ a {
 }
 
 small {
-	text-transform: lowercase;
+	text-transform: lowercase;  
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #008;
+  color: #fff; 
 }
 
 [class*="col-"] {

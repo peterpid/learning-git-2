@@ -46,8 +46,10 @@ small {
   text-transform: lowercase; }
 
 .flex-container {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
   background-color: #008;
   color: #fff; }
 
@@ -173,4 +175,4 @@ small {
   body {
     font-size: 20px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
